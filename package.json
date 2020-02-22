@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "name": "jest_nedb_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Alexander Dischberg",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^25.1.2",
+    "@types/nedb": "^1.8.9",
+    "jest": "^25.1.0"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "moduleDirectories": [
+      "node_modules",
+      "js"
+    ]
+  },
+  "dependencies": {
+    "nedb": "^1.8.0"
+  }
+}
